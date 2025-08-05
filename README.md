@@ -1,2 +1,3 @@
 # Assessment_Task_3
-My assessment task
+
+This repository contains all the details for Assessment task 3 CT. 
