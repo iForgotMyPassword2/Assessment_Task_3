@@ -1,0 +1,297 @@
+Station,Entry,Exit,Total
+Town Hall  Station,1768424,1696517,3464941
+Central  Station,1668852,1723781,3392633
+Wynyard  Station,1009849,1107751,2117600
+Parramatta  Station,851945,863229,1715174
+Martin Place  Station,745993,882299,1628292
+Chatswood  Station,755723,774123,1529846
+Circular Quay  Station,657618,670073,1327691
+Bondi Junction  Station,557782,544444,1102226
+Strathfield  Station,553988,530757,1084745
+Burwood  Station,474109,481404,955513
+Sydenham  Station,467490,449449,916939
+Gadigal  Station,447768,461253,909021
+Redfern  Station,426692,458399,885091
+Hurstville  Station,427099,426571,853670
+Mascot  Station,361782,355622,717404
+Blacktown  Station,345191,347647,692838
+Lidcombe  Station,331476,321662,653138
+Kings Cross  Station,320457,331477,651934
+Epping  Station,319785,309723,629508
+Macquarie University  Station,310800,312679,623479
+Victoria Cross  Station,309773,308991,618764
+Auburn  Station,315195,292577,607772
+Hornsby  Station,250757,248642,499399
+Crows Nest  Station,248303,250625,498928
+Ashfield  Station,240134,234519,474653
+Newtown  Station,210546,238002,448548
+Kogarah  Station,224923,212366,437289
+Domestic  Station,234929,199954,434883
+North Sydney  Station,200493,234204,434697
+Museum  Station,199960,234397,434357
+Rockdale  Station,222093,210059,432152
+Barangaroo  Station,197891,227687,425578
+Wolli Creek  Station,211312,208342,419654
+St Leonards  Station,201990,202497,404487
+Rhodes  Station,201043,195434,396477
+St James  Station,184136,212228,396364
+Green Square  Station,203103,192787,395890
+Castle Hill  Station,188126,192916,381042
+Liverpool  Station,181513,176638,358151
+Cabramatta  Station,177920,174819,352739
+Edgecliff  Station,176446,176126,352572
+Milsons Point  Station,158936,182754,341690
+Tallawong  Station,168824,155673,324497
+Penrith  Station,157636,159608,317244
+Olympic Park  Station,151515,154434,305949
+Eastwood  Station,152135,151508,303643
+International  Station,145267,144834,290101
+Granville  Station,148484,135637,284121
+Sutherland  Station,137043,135435,272478
+Merrylands  Station,133927,128407,262334
+Westmead  Station,134034,125403,259437
+Mount Druitt  Station,131041,128245,259286
+Gordon  Station,126046,120434,246480
+Waterloo  Station,125185,119612,244797
+Campbelltown  Station,121373,118485,239858
+Fairfield  Station,123671,115984,239655
+Flemington  Station,117404,110863,228267
+Rouse Hill  Station,111922,115063,226985
+Revesby  Station,114240,110991,225231
+Seven Hills  Station,113413,107299,220712
+Cherrybrook  Station,109490,103801,213291
+Glenfield  Station,111211,101949,213160
+West Ryde  Station,98380,98193,196573
+Meadowbank  Station,101241,91161,192402
+Kellyville  Station,97265,93330,190595
+Hills Showground  Station,96659,91191,187850
+Gosford  Station,89141,89167,178308
+Macquarie Park  Station,89445,87279,176724
+Artarmon  Station,89961,84083,174044
+Miranda  Station,85243,88240,173483
+St Marys  Station,85854,82971,168825
+Homebush  Station,87019,81392,168411
+Leppington  Station,83136,78259,161395
+Edmondson Park  Station,82298,77648,159946
+North Ryde  Station,78265,76429,154694
+Bella Vista  Station,78672,75429,154101
+Wentworthville  Station,79973,74037,154010
+Lindfield  Station,76511,74010,150521
+Schofields  Station,74593,69538,144131
+Norwest  Station,72729,70078,142807
+Rooty Hill  Station,73941,68508,142449
+Woy Woy  Station,70391,70940,141331
+Harris Park  Station,69435,70194,139629
+Riverwood  Station,71448,67006,138454
+Petersham  Station,70435,66731,137166
+Turramurra  Station,71020,66121,137141
+Summer Hill  Station,71169,65553,136722
+Cronulla  Station,67549,68113,135662
+Mortdale  Station,70119,63176,133295
+Ingleburn  Station,63008,61269,124277
+Macarthur  Station,61779,61169,122948
+Pendle Hill  Station,63099,57630,120729
+Bankstown  Station,58230,58927,117157
+Guildford  Station,62371,54348,116719
+Minto  Station,59798,55963,115761
+Stanmore  Station,60237,55030,115267
+Penshurst  Station,62313,52264,114577
+Holsworthy  Station,58878,53949,112827
+Toongabbie  Station,58394,53571,111965
+Doonside  Station,57118,50912,108030
+Roseville  Station,55184,52279,107463
+Waitara  Station,55042,51472,106514
+Carlton  Station,55654,50006,105660
+North Strathfield  Station,52527,51563,104090
+St Peters  Station,55372,48347,103719
+Padstow  Station,53930,48716,102646
+Allawah  Station,54328,47966,102294
+Lewisham  Station,53247,48042,101289
+Canley Vale  Station,51356,45438,96794
+Caringbah  Station,49728,46086,95814
+Arncliffe  Station,49441,43941,93382
+Leumeah  Station,48275,44736,93011
+Warwick Farm  Station,49085,43643,92728
+Erskineville  Station,48553,44085,92638
+Kingsgrove  Station,47851,44640,92491
+Waverton  Station,43460,46119,89579
+Jannali  Station,46270,42382,88652
+Quakers Hill  Station,46588,40959,87547
+Croydon  Station,44164,40471,84635
+Newcastle Interchange Station,41409,41859,83268
+Wollongong  Station,41672,41188,82860
+Wollstonecraft  Station,43358,39399,82757
+Kingswood  Station,43177,39513,82690
+Beverly Hills  Station,43269,37897,81166
+Concord West  Station,41062,38369,79431
+Berala  Station,40397,37569,77966
+Killara  Station,38784,36495,75279
+Narwee  Station,39087,35336,74423
+Pymble  Station,38780,35642,74422
+Gymea  Station,37336,33731,71067
+Kirrawee  Station,35783,33611,69394
+Oatley  Station,36363,32951,69314
+Katoomba  Station,33023,33786,66809
+Thornleigh  Station,32966,31452,64418
+Wahroonga  Station,32756,31597,64353
+Pennant Hills  Station,32988,31203,64191
+Panania  Station,32294,29272,61566
+Banksia  Station,30814,27231,58045
+Regents Park  Station,28535,26551,55086
+Tempe  Station,28652,26394,55046
+Bexley North  Station,28794,26018,54812
+Beecroft  Station,26086,25005,51091
+Wyong  Station,25787,24310,50097
+Macdonaldtown  Station,24464,24366,48830
+Werrington  Station,25348,22267,47615
+Tuggerah  Station,23339,22910,46249
+Asquith  Station,24230,21426,45656
+Engadine  Station,23770,21441,45211
+Woolooware  Station,23485,21630,45115
+Bardwell Park  Station,23040,21106,44146
+Yennora  Station,21752,22308,44060
+North Wollongong  Station,23002,20936,43938
+Turrella  Station,23130,20766,43896
+Chester Hill  Station,22626,20984,43610
+Riverstone  Station,22799,20685,43484
+Berowra  Station,22322,20452,42774
+Cardiff  Station,20154,18893,39047
+Marayong  Station,20339,18166,38505
+Normanhurst  Station,20777,17619,38396
+Macquarie Fields  Station,19656,18358,38014
+Broadmeadow  Station,19673,17931,37604
+Clyde  Station,19084,18014,37098
+Thirroul  Station,18475,16755,35230
+Emu Plains  Station,18285,16863,35148
+Yagoona  Station,17813,15603,33416
+Springwood  Station,16686,15694,32380
+East Hills  Station,16813,15061,31874
+Kiama  Station,14910,15813,30723
+Cheltenham  Station,16152,13988,30140
+Sefton  Station,15454,13914,29368
+Morisset  Station,15163,14039,29202
+Hamilton  Station,14278,14342,28620
+Richmond  Station,14473,13488,27961
+Windsor  Station,13908,13313,27221
+Warrawee  Station,13878,13224,27102
+Carramar  Station,12499,11016,23515
+Como  Station,12619,10370,22989
+Mount Colah  Station,11288,9955,21243
+Heathcote  Station,10651,10079,20730
+Denistone  Station,10601,9603,20204
+Villawood  Station,9890,9550,19440
+Dapto  Station,9426,8198,17624
+Birrong  Station,8455,8387,16842
+Leura  Station,9195,7111,16306
+Fassifern  Station,8518,7468,15986
+Waterfall  Station,7961,7926,15887
+Maitland  Station,8374,7315,15689
+Blaxland  Station,7995,7103,15098
+Helensburgh  Station,7850,6824,14674
+Casula  Station,7765,6897,14662
+Wentworth Falls  Station,7291,6886,14177
+Unanderra  Station,7537,6591,14128
+Oak Flats  Station,7530,6491,14021
+Glenbrook  Station,7078,6301,13379
+Hawkesbury River  Station,6587,6398,12985
+Lithgow  Station,6692,5973,12665
+Loftus  Station,6612,5662,12274
+Bomaderry  Station,6715,5358,12073
+Victoria Street  Station,6256,5487,11743
+Wyee  Station,5707,4870,10577
+Albion Park  Station,5384,4741,10125
+Blackheath  Station,5214,4823,10037
+Thornton  Station,4979,4459,9438
+Leightonfield  Station,4940,4498,9438
+Hazelbrook  Station,4943,4431,9374
+Bowral  Station,4750,4354,9104
+Mulgrave  Station,4524,4275,8799
+Mount Kuring-gai  Station,4458,4183,8641
+Coniston  Station,4461,3798,8259
+Warnervale  Station,4393,3536,7929
+Narara  Station,4263,3403,7666
+Shellharbour Junction  Station,4077,3274,7351
+East Richmond  Station,3539,3677,7216
+Waratah  Station,3542,3310,6852
+Moss Vale  Station,3612,3026,6638
+Mittagong  Station,3395,2951,6346
+Lawson  Station,3144,3024,6168
+Beresfield  Station,3111,2778,5889
+Vineyard  Station,2995,2798,5793
+Camellia Station,3488,2290,5778
+Bulli  Station,2964,2716,5680
+Tahmoor  Station,3047,2588,5635
+Point Clare  Station,3081,2480,5561
+Corrimal  Station,2892,2472,5364
+Picton  Station,2738,2461,5199
+Ourimbah  Station,2806,2373,5179
+Lisarow  Station,2703,2366,5069
+Telarah  Station,2666,2232,4898
+Mount Victoria  Station,2487,2329,4816
+Woonona  Station,2516,1943,4459
+Bathurst  Station,2656,1794,4450
+Adamstown  Station,2200,2128,4328
+Fairy Meadow  Station,2178,2059,4237
+Bellambi  Station,1992,1981,3973
+Warabrook  Station,1984,1931,3915
+Minnamurra  Station,2074,1824,3898
+Carlingford Station,2014,1731,3745
+Niagara Park  Station,1984,1676,3660
+Warrimoo  Station,2008,1650,3658
+Dundas Station,1880,1754,3634
+Austinmer  Station,1987,1630,3617
+Telopea Station,1877,1603,3480
+Tascott  Station,1913,1476,3389
+Faulconbridge  Station,1602,1525,3127
+Woodford  Station,1496,1454,2950
+Towradgi  Station,1490,1345,2835
+Berry  Station,1460,1348,2808
+Metford  Station,1422,1349,2771
+Stanwell Park  Station,1230,1297,2527
+Port Kembla  Station,1339,1171,2510
+Rydalmere Station,1186,1301,2487
+Kotara  Station,1135,1319,2454
+Koolewong  Station,1331,1052,2383
+Lapstone  Station,1278,1055,2333
+Clarendon  Station,1175,1138,2313
+Cowan  Station,1025,1037,2062
+Bullaburra  Station,1047,994,2041
+Gerringong  Station,1042,920,1962
+Cockle Creek  Station,966,941,1907
+Bargo  Station,1014,866,1880
+Goulburn  Station,1144,687,1831
+Teralba  Station,976,854,1830
+Valley Heights  Station,978,846,1824
+Medlow Bath  Station,873,744,1617
+Otford  Station,791,820,1611
+Dora Creek  Station,809,747,1556
+Coledale  Station,787,679,1466
+Bombo  Station,774,641,1415
+Singleton  Station,736,651,1387
+East Maitland  Station,632,592,1224
+Wombarra  Station,626,583,1209
+Booragul  Station,539,490,1029
+Scarborough  Station,509,493,1002
+Muswellbrook  Station,554,437,991
+Scone  Station,532,392,924
+Coalcliff  Station,446,477,923
+Douglas Park  Station,473,394,867
+Dungog  Station,452,334,786
+Awaba  Station,419,339,758
+Sandgate  Station,421,331,752
+Wondabyne  Station,321,386,707
+Yerrinbool  Station,346,340,686
+Menangle Park  Station,301,311,612
+High Street  Station,254,346,600
+Cringila  Station,271,308,579
+Port Kembla North  Station,284,249,533
+Menangle  Station,266,260,526
+Bundanoon  Station,320,198,518
+Burradoo  Station,231,255,486
+Linden  Station,254,207,461
+Hexham  Station,204,221,425
+Kembla Grange  Station,171,191,362
+Branxton  Station,168,141,309
+Tarro  Station,180,124,304
+Paterson  Station,140,102,242
+Bell  Station,96,106,202
