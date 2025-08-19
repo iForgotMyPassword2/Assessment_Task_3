@@ -9,12 +9,31 @@ import sys
 
 # Modified_NSW_train_patronage = NSW_train_patronage.str.strip('_id')
 
-def NSW_patronage():
-    # File paths (adjust if needed)
-    CSV_PATH = os.path.join(os.path.dirname(__file__), "NSW_Train_patronage_per_station.csv")
-    PROCESSED_OUT = os.path.join(os.path.dirname(__file__), "processed_patronage_dec24.csv")
+#!/usr/bin/env python3
+"""
+NSW Train Patronage CLI
+-----------------------
+Interactive text-based UI to process and explore NSW Train patronage data.
 
+Features:
+- Clean and process data (Trip → numeric, pivot Entry/Exit, sum totals).
+- Filter by month (default: Dec-24).
+- Drop stations under a chosen patronage threshold (default: 200).
+- Sort stations (busiest → quietest by default, toggleable).
+- Options to view top/bottom stations, outliers, busiest station, etc.
+- Add new rows of data via prompts (column by column).
+- Save the processed dataset to CSV.
+"""
 
+import pandas as pd
+import os
+import sys
+
+# File paths (adjust if needed)
+CSV_PATH = os.path.join(os.path.dirname(__file__), "NSW_Train_patronage_per_station.csv")
+PROCESSED_OUT = os.path.join(os.path.dirname(__file__), "processed_patronage_dec24.csv")
+
+def what():
     def clean_trip_value(x):
         """Convert Trip string values to numeric. Treat 'Less than 50' as 25."""
         s = str(x).strip().replace(",", "")
@@ -139,14 +158,16 @@ def NSW_patronage():
                 print("Saved processed CSV to", PROCESSED_OUT)
             elif choice == "0":
                 print("going back to home...")
-                break
+                dataset_home()
             else:
                 print("Invalid option. Try again.")
 
 
+
     if __name__ == "__main__":
         main()
-    
+        
+
 
 
 def dataset_home():
@@ -155,10 +176,12 @@ def dataset_home():
     print('\n1. train patronage in NSW suburbs and their densities')
     print('2. train patronage in VIC suburbs and their densities')
     print('3. Car ownership in the city of sydney')
+    print('4. Exit the program :(')
     while True:
         data_choice = input('Choose between 1 and 2 to choose dataset')
         if data_choice == '1':
             print('You are viewing NSW train patronage')
+            what()
             break
         elif data_choice == '2':
             print('You are viewing VIC patronage')
@@ -166,6 +189,8 @@ def dataset_home():
         elif data_choice == '3':
             print('You are now looking at city of sydney car ownership')
             break
+        elif data_choice == '4':
+            exit()
         else:
             print('error, press either one, two or three')
 
@@ -202,8 +227,14 @@ def Title_Screen():
     else:
         print('error')
 
+dataset_home()
+
+
+
+
+
 
     
-# Title_Screen()
-NSW_patronage()
+
+
 
