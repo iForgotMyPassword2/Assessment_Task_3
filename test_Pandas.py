@@ -1,8 +1,74 @@
+def dataset_home():
+    print('\n === This is the dataset homepage: ===')
+    print('\n Here, you can use and manipulate the listed datasets')
+    print('\n1. train patronage in NSW suburbs and their densities')
+    print('2. train patronage in VIC suburbs and their densities')
+    print('3. Car ownership in the city of sydney')
+    print('4. Exit the program :(')
+    while True:
+        data_choice = input('Choose between 1 and 2 to choose dataset')
+        if data_choice == '1':
+            print('You are viewing NSW train patronage')
+            what()
+            break
+        elif data_choice == '2':
+            print('You are viewing VIC patronage')
+            break
+        elif data_choice == '3':
+            print('You are now looking at city of sydney car ownership')
+            break
+        elif data_choice == '4':
+            exit()
+        else:
+            print('error, press either one, two or three')
+
+
+def thesis_question():
+    print('\n === Main Thesis question: ===')
+    print('"How does population density affect public transport usage and car ownership in Australian suburbs?"')
+    print('\n This thesis statement shows...')
+    while True:
+        choice = input('press 1 to move onto dataset list and press 2 to exit')
+        if choice == '1':
+            print('going to dataset list...')
+            dataset_home
+            break
+        elif choice == '2':
+            Title_Screen()
+            break
+        else:
+            print('error, press either one or 2')
+        
+
+
+def Title_Screen():
+    print('\n === Main Menu === ')
+    print('1. View thesis question')
+    print('2. View dataset list')
+    print('3. Exit')
+
+    choice = input('Choose between 1, 2 and 3 to choose next destination')
+    if choice == '1':
+        thesis_question()
+    elif choice == '2':
+        dataset_home()
+    else:
+        print('error')
+
+dataset_home()
+
+
+
+
+
+
+    
+
 #!/usr/bin/env python3
 """
-NSW Train Patronage CLI
------------------------
-Interactive text-based UI to process and explore NSW Train patronage data.
+Victoria Train Patronage CLI
+----------------------------
+Interactive text-based UI to process and explore Victoria Train patronage data.
 
 Features:
 - Clean and process data (Trip → numeric, pivot Entry/Exit, sum totals).
@@ -19,8 +85,8 @@ import os
 import sys
 
 # File paths (adjust if needed)
-CSV_PATH = os.path.join(os.path.dirname(__file__), "NSW_Train_patronage_per_station.csv")
-PROCESSED_OUT = os.path.join(os.path.dirname(__file__), "processed_patronage_dec24.csv")
+CSV_PATH = os.path.join(os.path.dirname(__file__), "Victoria_Train_patronage_per_station.csv")
+PROCESSED_OUT = os.path.join(os.path.dirname(__file__), "vic_processed_patronage_dec24.csv")
 
 
 def clean_trip_value(x):
@@ -102,12 +168,14 @@ def main():
     processed = process_patronage(df, month=month, min_total=min_total, ascending=not sort_desc)
 
     while True:
-        print("\n=== NSW Patronage CLI ===")
+        print("\n=== Victoria Patronage CLI ===")
         print("1) Show top 10 stations")
         print("2) Show bottom 10 stations")
         print(f"3) Toggle sort order (currently {'descending' if sort_desc else 'ascending'})")
-        print("4) Add a row of data (Entry or Exit record)")
-        print(f"5) Save processed CSV to {PROCESSED_OUT}")
+        print("4) List outliers (very high / very low)")
+        print("5) Add a row of data (Entry or Exit record)")
+        print("6) Ask a prompt question (e.g., busiest station)")
+        print(f"7) Save processed CSV to {PROCESSED_OUT}")
         print("0) Exit")
 
         choice = input("Choose an option: ").strip()
@@ -120,8 +188,13 @@ def main():
             sort_desc = not sort_desc
             processed = process_patronage(df, month=month, min_total=min_total, ascending=not sort_desc)
             print("Sort order now", "descending" if sort_desc else "ascending")
-       
         elif choice == "4":
+            low, high = list_outliers(processed)
+            print("\nHigh outliers (very busy):")
+            print(high.sort_values("Total", ascending=False).to_string(index=False))
+            print("\nLow outliers (unusually quiet):")
+            print(low.sort_values("Total").to_string(index=False))
+        elif choice == "5":
             # Add one new row interactively
             station = input("Station name: ").strip()
             month_in = input("MonthYear (e.g., Dec-24): ").strip() or month
@@ -141,12 +214,23 @@ def main():
             df = pd.concat([df, pd.DataFrame([new])], ignore_index=True)
             processed = process_patronage(df, month=month, min_total=min_total, ascending=not sort_desc)
             print("Row added. Station totals updated.")
-       
-        elif choice == "5":
+        elif choice == "6":
+            q = input("Ask a short prompt (e.g., 'what was the busiest station?'): ").strip().lower()
+            if "busiest" in q:
+                top = processed.sort_values("Total", ascending=False).head(1)
+                if not top.empty:
+                    print("Busiest station:", top.iloc[0]["Station"], "with total", int(top.iloc[0]["Total"]))
+                else:
+                    print("No data available.")
+            elif "how many stations" in q:
+                print("Number of stations:", len(processed))
+            else:
+                print("Sorry, prompt not recognised. Try: 'what was the busiest station?', 'how many stations'")
+        elif choice == "7":
             processed.to_csv(PROCESSED_OUT, index=False)
             print("Saved processed CSV to", PROCESSED_OUT)
         elif choice == "0":
-            print("going back to home...")
+            print("Goodbye.")
             break
         else:
             print("Invalid option. Try again.")
@@ -154,3 +238,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

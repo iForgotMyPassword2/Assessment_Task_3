@@ -162,14 +162,6 @@ def what():
             else:
                 print("Invalid option. Try again.")
 
-
-
-    if __name__ == "__main__":
-        main()
-        
-
-
-
 def dataset_home():
     print('\n === This is the dataset homepage: ===')
     print('\n Here, you can use and manipulate the listed datasets')
@@ -227,14 +219,8 @@ def Title_Screen():
     else:
         print('error')
 
-dataset_home()
 
 
-
-
-
-
+if __name__ == "__main__":
+    main()
     
-
-
-
